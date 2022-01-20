@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'myFont';
+    /*a name to be used later*/
+    src: url('fonts/myfont.ttf') format('truetype');
+    /*URL to font currently olde english*/
+}
+
+@font-face {
+    font-family: 'myFont2';
+    /*a name to be used later*/
+    src: url('fonts/myfont2.ttf') format('truetype');
+    /*URL to font currently olde english*/
+}
+
+body {
+    background-color: black;
+    font-family: /* myFont2 */
+    Arial, Helvetica, sans-serif;
+    color: rgb(199, 199, 199);
+    font-size: 25px;
+    text-align: left;
+    /*following is the red glow*/
+    /* text-shadow: 5px 5px #ff0000; */
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 45px;
+    font-family: myFont;
+    /*following is the red glow*/
+    text-shadow: 3px 3px #ff0000;
+}
+
+
+/*ignore for now
+.myVar {
+    background-color: white;
+    font-family: arial;
+    color: black;
+    width: 300px;
+    padding: 20px;
+    border: solid 25px;
+    text-align: center;
+    margin: 0 auto;
+}*/
